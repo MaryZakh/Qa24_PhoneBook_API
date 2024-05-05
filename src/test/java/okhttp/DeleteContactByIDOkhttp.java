@@ -93,6 +93,7 @@ public class DeleteContactByIDOkhttp {
         System.out.println(errorDTO.getMessage());
         Assert.assertEquals(errorDTO.getMessage(),"Contact with id: 123 not found in your contacts!");
     }
+
 }
 //df117b1e-cd90-4989-a5af-23b8dd32194d
 //stark487@gmail.com
